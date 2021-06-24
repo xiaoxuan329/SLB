@@ -1,0 +1,12 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<view class="v1">
+  <text class="t1">关于我们</text>
+</view>
+<view>
+本微信小程序由斗地组全员制作完成
+</view>
+<view>
+</view>
+<view>
+斗地组成员：郭增勇、王腾辉、王林林、李梓轩
+</view>

@@ -1,0 +1,84 @@
+<view class="container">
+  <view class="page-body">
+    <form bindsubmit="btnSub">
+<!-- 
+
+      <view class="page-section">
+        <view class="page-section-title">姓名</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" type="text" name="name" placeholder="请输入..." />
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="page-section-title">性别</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" type="text" name="sex" placeholder="请输入..." />
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="page-section-title">班级</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" type="text" name="classname" placeholder="请输入..." />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="page-section">
+        <view class="page-section-title">系部</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" type="text" name="departmentname" placeholder="请输入..." />
+            </view>
+          </view>
+        </view>
+      </view>
+      
+      <view class="btn-area">
+        <button style="margin: 60rpx 0" type="primary" formType="submit" bindtap="exit">Submit</button>
+        <button style="margin: 60rpx 0" formType="reset">Reset</button>
+      </view> -->
+<view class="content">
+  <view class="account">
+    <view class="title">姓名</view>
+    <view class="num"><input type="text" name="name"  placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="account">
+    <view class="title">性别</view>
+    <view class="num"><input type="text" name="sex"  placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">班级</view>
+    <view class="num"><input type="text" name="classname"  placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">系部</view>
+    <view class="num"><input type="text" name="departmentname"  placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+<view class="hr"></view>
+  <view class="btn-area">
+        <button style="margin: 60rpx 0, color:red" type="default" formType="submit" bindtap="toastShow"
+        >
+        
+        提交</button>
+        <toast hidden="{{status}}" duration="3000" bindchange="toastHide">提交成功</toast>
+  </view>
+</view>
+    </form>
+  </view>
+
+</view>

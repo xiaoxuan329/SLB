@@ -1,0 +1,60 @@
+<view class="head">
+  <view class="head_item">我接受的需求</view>
+</view>
+ <view class="row" wx:for="{{dataList}}" wx:key="index">
+<view class="item">
+  <view class="intro">
+    <view class="jiaqian">
+      发布时间:{{item.time}}
+    </view>
+    <view class="dizhi">
+      姓名： {{item.name}}
+    </view>
+    <view class="dizhi">
+      学号： {{item.no}}
+    </view>
+    <view class="dizhi">
+      送达时间： {{item.arrive_time}}
+    </view>
+    <view class="dizhi">
+      送达地点：{{item.arrive_place}}
+    </view>
+    <view class="dizhi">
+      打赏金额：{{item.money}}
+    </view>
+    <view class="dizhi">
+      联系方式：{{item.contact}}
+    </view>
+    <view class="dizhi">
+      具体需求：{{item.needs}}
+    </view>
+
+</view>
+</view>
+
+<view class = "item2">
+    <input placeholder="您可在此对以上需求进行点评:" bindinput="myIpt"></input>
+<view class = "b11">
+  <button class='but2'   data-time="{{item.time}}" 
+  data-arrive_time="{{item.arrive_time}}" 
+  data-arrive_place="{{item.arrive_place}}"
+  data-needs="{{item.needs}}" 
+  data-id="{{item._id}}" 
+  data-name="{{item.name}}"
+  data-money="{{item.money}}"
+  data-contact="{{item.contact}}"
+  data-no="{{item.no}}"
+ bindtap="subData">
+ <view bindtap="exit_2">提交点评</view>
+ </button>
+ <view class = "b12">
+  <button class='but3' data-id="{{item._id}}" data-time="{{item.time}}"bindtap="del">
+  <view bindtap="exit">已完成该需求</view>  
+  </button>
+</view>
+
+</view>
+</view>
+<view class="hr"></view>
+</view>
+ 

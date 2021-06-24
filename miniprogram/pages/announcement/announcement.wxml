@@ -1,0 +1,17 @@
+<!--pages/announcement/announcement.wxml-->
+<view class="v1">
+  <text class="t1">公告</text>
+</view>
+<view>
+  顺路帮使用介绍：
+</view>
+<view>1.	首次进入小程序的用户需在个人界面先将自己的个人信息填写完整。</view>
+<view>2.	顺路帮主要分为四个界面。</view>
+<view>3.	用户可以在发布页面按指示发布需求。</view>
+<view>4.	在创建界面用户可以查询需求和接受需求。</view>
+<view>...</view>
+
+
+
+
+

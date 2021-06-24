@@ -1,0 +1,41 @@
+<view class="head">
+  <view class="head_item">我的点评</view>
+</view>
+
+<view class="row" wx:for="{{dataList}}" wx:key="index">
+
+<view class="item">
+  <view class="intro">
+    <view class="jiaqian">
+      发布时间:{{item.time}}
+    </view>
+    <view class="dizhi">
+      姓名： {{item.name}}
+    </view>
+    <view class="dizhi">
+      学号： {{item.no}}
+    </view>
+
+    <view class="dizhi">
+      送达时间： {{item.arrive_time}}
+    </view>
+    <view class="dizhi">
+      送达地点：{{item.arrive_place}}
+    </view>
+    <view class="dizhi">
+      打赏金额：{{item.money}}
+    </view>
+    <view class="dizhi">
+      联系方式：{{item.contact}}
+    </view>
+    <view class="dizhi">
+      具体需求：{{item.needs}}
+    </view>
+    <view class="dianping">
+      点评信息：{{item.my_comment}}
+    </view>
+  </view>
+</view>
+</view>
+<view class="hr"></view>
+ 

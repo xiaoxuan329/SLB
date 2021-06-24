@@ -1,0 +1,8 @@
+/* pages/aboutUs/aboutUs.wxss */
+.v1 {
+  text-align: center;
+  justify-content: center;
+}
+.t1 {
+  font-size: large;
+}

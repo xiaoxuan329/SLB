@@ -1,0 +1,15 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <view class="up">
+  <image src="./ep.jpg" class="img"></image>
+  <text class="text">顺路帮</text>
+  </view>
+  <view class="box">
+  <navigator url="../announcement/announcement" class="nav1">
+    <button class="bt1">公告</button>
+  </navigator>
+  <navigator url="../aboutUs/aboutUs" class="nav2">
+    <button class="bt2">关于我们</button>
+  </navigator>
+  </view>
+</view>

@@ -1,0 +1,90 @@
+/* pages/make/make.wxss
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #F0F0F0;
+  letter-spacing: 7px;
+  font-size: 45rpx;
+}
+
+.box .s{
+  margin-top: 155rpx;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box .i1 {
+  margin-top: 15rpx;
+  height: 120rpx;
+  background-color: white;
+  border-radius: 25px;
+  font-size: 40rpx;
+}
+ 
+.box .i2 {
+  margin-top: 15rpx;
+  height: 120rpx;
+  background-color: white;
+  border-radius: 25px;
+  font-size: 40rpx;
+}
+
+.box .i3 {
+  margin-top: 15rpx;
+  height: 300rpx;
+  background-color: white;
+  border-radius: 25px;
+  font-size: 40rpx;
+}
+
+.box .c {
+  margin-top: 15rpx;
+  height: 130rpx;
+} */
+
+/* pages/login/login.wxss */
+.content{
+  margin-top: 40px;
+  background-color: rgb(239,239,244);
+}
+
+.t{
+  font-size: x-large;
+  font-style:italic;
+  color: darkslategray;
+  margin-left: 80rpx;
+  margin-top: 80rpx;
+  margin-bottom: 50rpx;
+}
+
+.account{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+.title{
+  margin-right: 30px;
+  font-weight: bold;
+}
+.hr{
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+  width: 90%;
+  margin: 0 auto;
+}
+.see{
+  position: absolute;
+  right: 20px;
+}
+
+
+.btn-area{
+    margin-top: 100rpx;
+}

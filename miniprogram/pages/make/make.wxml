@@ -1,0 +1,88 @@
+<!-- <view class="container">
+  <view class="page-body">
+<form bindsubmit="reg" class="box" catchsubmit="formSubmit" catchreset="formReset">
+  
+  <view class='s'>你想要送达的时间：
+    <view class="i1"><input type="text" name="time" class="t1"/></view>
+  </view>
+  <view>你想要送达的地点：
+    <view class="i2"><input type="text" name="place" class="t2"/></view>
+  </view>
+  <view>你的联系方式：
+    <view class="i2"><input type="text" name="phone"  class="t2"/></view>
+  </view>
+  <view>你想支付的金额：
+    <view class="i2"><input type="text" name="price"  class="t2"/></view>
+  </view>
+  <view>你的需求：
+    <view class="i3"><input typeq="text" name="require" class="t3"/></view>
+  </view> -->
+
+  <!-- <view>
+  <button type="default" form-type="submit" bindtap="toastshow">提交需求</button>
+  <toast hidden="{{status}}" duration="3000" bindchange="toastHide">提交成功</toast>
+  </view> -->
+
+  <!-- <view class="btn-area">
+        <button style="margin: 60rpx 0, color:red" type="default" formType="submit" bindtap="toastShow">提交</button>
+        <toast hidden="{{status}}" duration="3000" bindchange="toastHide">提交成功</toast>
+  </view>
+
+</form>
+  </view>
+</view> -->
+
+<!--pages/login/login.wxml-->
+<form bindsubmit="btnSub">
+<view class="content">
+  <view class="t">
+   在下面填写你的信息吧
+</view>
+  <view class="account">
+    <view class="title">姓名</view>
+    <view class="num"><input bindinput="accountInput" name ="name" placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">学号</view>
+    <view class="num"><input bindinput="accountInput" name ="no" placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+<view class="t">
+   在下面填写你的需求吧
+</view>
+  <view class="account">
+    <view class="title">送达时间</view>
+    <view class="num"><input bindinput="accountInput" name ="arrive_time" placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">送达地点</view>
+    <view class="num"><input bindblur="pwdBlur" name ="arrive_place" placeholder="请输入"  placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">打赏金额</view>
+    <view class="num"><input bindblur="pwdBlur" name ="money" placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">联系方式</view>
+    <view class="num"><input bindblur="pwdBlur" name ="contact" placeholder="请输入"  placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">具体需求</view>
+    <view class="num"><input bindblur="pwdBlur" name ="needs" placeholder="请输入" placeholder-style="color:#999999;"/></view>
+  </view>
+<view class="hr"></view>
+  <view class="btn-area">
+        <button style="margin: 60rpx 0, color:red" type="default" formType="submit" bindtap="toastShow" data-id="{{item._id}}">
+        <view bindtap="btnSub" class="fjn">
+        </view>
+        提交
+        </button>
+        <toast hidden="{{status}}" duration="3000" bindchange="toastHide">提交成功</toast>
+  </view>
+</view>
+</form>

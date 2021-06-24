@@ -1,0 +1,31 @@
+/* pages/about/about.wxss */
+.container {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top{
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+  }
+  .nickname{
+    margin-bottom: 10rpx;
+    text-align: center;
+    }
+.container .vw {
+  justify-content: center;
+  text-align: center;
+}
+.container .vw .img {
+  margin-top: 10rpx;
+  height: 500rpx;
+}
+.vw .text {
+  text-align: center;
+  justify-content: center;
+}
+.container .nav {
+  background-color: cadetblue;
+}

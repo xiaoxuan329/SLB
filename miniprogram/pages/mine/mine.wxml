@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class='top'>
+      <open-data type="userAvatarUrl"></open-data>
+</view>
+<view class='nickname'>
+      <open-data type="userNickName"></open-data> 
+</view>
+
+<!-- 个人中心 -->
+<view class="uploader">
+  <view class="uploader-text" bindtap="doUpload">
+    <navigator url="../self/self" open-type="navigate" class="uploader-text">
+    <text>个人中心</text>
+    </navigator>
+  </view>
+  <view class="uploader-container" wx:if="{{imgUrl}}">
+    <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+  </view>
+</view>
+
+
+<!-- 我的发布 -->
+<view class="uploader">
+  <navigator url="../Mymake/Mymake" open-type="navigate" class="uploader-text">
+    <text>我的发布</text>
+  </navigator>
+</view>
+
+
+<!-- 我的接受 -->
+<view class="uploader">
+  <navigator url="../Myaccept/Myaccept" open-type="navigate" class="uploader-text">
+    <text>我的接受</text>
+  </navigator>
+</view>
+
+<view class="uploader">
+  <navigator url="../Mycomment/Mycomment" open-type="navigate" class="uploader-text">
+    <text>我的点评</text>
+  </navigator>
+</view>
+
+<!-- 我的历史 -->
+<view class="uploader">
+  <navigator url="../My_h_make/My_h_make" open-type="navigate" class="uploader-text">
+    <text>我的历史发布</text>
+  </navigator>
+</view>
+
+
+</view>

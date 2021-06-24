@@ -1,0 +1,111 @@
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.head_item {
+  width: 374rpx;
+  text-align:center;
+  margin-left: 180rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+ 
+.head {
+  height:80rpx;
+  background-color:lightsteelblue;
+  border-top: 1rpx solid #fff;
+  border-bottom: 1rpx solid rgba(204, 204, 204, 1);
+  display: flex;
+  align-items: center;
+  top: 0;
+}
+ 
+.ring {
+  width: 2rpx;
+  height: 100%;
+  background-color: rgba(204, 204, 204, 1);
+}
+ 
+.img {
+  margin: 10rpx 0 10rpx 10rpx;
+}
+ 
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+ 
+.introing {
+  display: flex;
+  flex-direction: column;
+  flex: right;
+  margin-right: 30rpx;
+}
+ 
+.position {
+  margin-top: 20rpx;
+  width: 60%;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+ 
+.jiaqian {
+  font-size: 28rpx;
+  color:black;
+  margin-top: 20rpx;
+  font-weight: bold;
+} 
+.address {
+  font-size: 25rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+ 
+.dizhi {
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+
+ 
+.dianping {
+  font-size: 33rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+}
+
+.but1 {
+  position:relative;
+  font-size: 25rpx;
+  margin-left: 50rpx;
+  margin-top: 135rpx;
+  border: red;
+  color:black;
+}
+ 
+.but2 {
+  position:relative;
+  font-size: 25rpx;
+  margin-left: 50rpx;
+  margin-top: 135rpx;
+  border: red;
+  color:black;
+}
+.rendu {
+  position: absolute;
+  font-size: 25rpx;
+  margin-left: 620rpx;
+  margin-top: 120rpx;
+}
+ 
+.line {
+  align-content: center;
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+ 
+.hr {
+  height: 10px;
+  background-color: #eee;
+}

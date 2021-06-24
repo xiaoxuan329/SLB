@@ -1,0 +1,59 @@
+/* pages/about/about.wxss */
+.container {
+  width: 100%;
+  height: 1070rpx;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:	#D1EEEE;
+}
+
+.container .up {
+  justify-content: center;
+  text-align: center;
+}
+.container .up .img {
+  margin-top: 10rpx;
+  height: 500rpx;
+
+}
+.up .text {
+  text-align: center;
+  justify-content: center;
+  font-size: 100rpx;
+  color: rgb(92, 23, 184);
+  line-height: 200rpx;
+}
+
+.container .box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.container .box .nav1 {
+  justify-content: center;
+  text-align: center;
+}
+
+.container .box .nav2 {
+  justify-content: center;
+  text-align: center;
+}
+
+.box .nav1 .bt1 {
+  margin-top: 50rpx;
+  background-color: rgb(82, 82, 211);
+  width: 200rpx;
+  border-radius: 25px;
+  border: 5px,solid,black;
+}
+
+.box .nav2 .bt2 {
+  margin-top: 30rpx;
+  background-color: rgb(82, 82, 211);
+  width: 300rpx;
+  border-radius: 25px;
+  border: 5px,solid,black;
+}
