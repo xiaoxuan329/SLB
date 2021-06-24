@@ -1,0 +1,48 @@
+<view class="row" wx:for="{{dataList}}" wx:key="index">
+    <view class="item">
+  <view class="intro">
+    <view class="jiaqian">
+      发布时间:{{item.time}}
+    </view>
+    <view class="dizhi">
+      姓名： {{item.name}}
+    </view>
+    <view class="dizhi">
+      学号： {{item.no}}
+    </view>
+    <view class="dizhi">
+      送达时间： {{item.arrive_time}}
+    </view>
+    <view class="dizhi">
+      送达地点：{{item.arrive_place}}
+    </view>
+    <view class="dizhi">
+      打赏金额：{{item.money}}
+    </view>
+    <view class="dizhi">
+      联系方式：{{item.contact}}
+    </view>
+    <view class="dizhi">
+      具体需求：{{item.needs}}
+    </view>
+  </view>
+  
+  <button class='but2' 
+  data-time="{{item.time}}" 
+  data-arrive_time="{{item.arrive_time}}" 
+  data-arrive_place="{{item.arrive_place}}"
+  data-needs="{{item.needs}}" 
+  data-id="{{item._id}}" 
+  data-name="{{item.name}}"
+  data-money="{{item.money}}"
+  data-contact="{{item.contact}}"
+  data-no="{{item.no}}"
+  bindtap="btnSub" 
+  style="width:340rpx"
+  >
+  <view bindtap="exit">我要接受</view>
+  </button>
+  
+</view>
+<view class="hr"></view>
+</view>
